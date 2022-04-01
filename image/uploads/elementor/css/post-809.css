@@ -1,0 +1,33 @@
+.elementor-809 .elementor-element.elementor-element-69e5eef>.elementor-container {
+    min-height: 0px;
+}
+
+.elementor-809 .elementor-element.elementor-element-69e5eef:not(.elementor-motion-effects-element-type-background),
+.elementor-809 .elementor-element.elementor-element-69e5eef>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #FFFFFF;
+}
+
+.elementor-809 .elementor-element.elementor-element-69e5eef {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-809 .elementor-element.elementor-element-69e5eef>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-809 .elementor-element.elementor-element-2ea79fd .elementor-menu-toggle {
+    margin: 0 auto;
+}
+
+.elementor-809 .elementor-element.elementor-element-2ea79fd .elementor-nav-menu--main .elementor-item {
+    color: var( --e-global-color-4fc24ffa);
+}
+
+@media(min-width:768px) {
+    .elementor-809 .elementor-element.elementor-element-9de0e33 {
+        width: 32.544%;
+    }
+    .elementor-809 .elementor-element.elementor-element-f0163e5 {
+        width: 67.456%;
+    }
+}
