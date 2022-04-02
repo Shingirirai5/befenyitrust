@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bafenyi" />
+    <meta name="author" content="dotdevtech" />
+    <title>Bafenyi | Trust </title>
+    <link rel="icon" href="image/cropped-Header-logo-1-32x32 (1).png" type="image/png">
+    <link rel="stylesheet" href="assets/animation/animate.min.css">
+    <link rel="stylesheet" href="assets/animation/custom-animation.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/swiper/swiper.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/nice-select/nice-select.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "1448809042061720");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v13.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="ctn-preloader" id="ctn-preloader">
+            <div class="round_spinner">
+                <div class="spinner"></div>
+                <div class="text">
+                    <img src="image/logos/baf-removebg-preview.png" alt="Bafenyi">
+                </div>
+            </div>
+            <h2 class="head">BAFENYI</h2>
+            <p></p>
+        </div>
+    </div>
+    <!-- Preloader End -->
+    <!-- Main -->
+    <main class="main main--wrapper4">
+        <!-- Header Style One -->
+        <!-- header -->
+        <header class="header header--styleOne header--styleOne sticky-on">
+            <div id="sticky-placeholder"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="header__wrapper">
+                            <!-- logo start -->
+                            <div class="header__logo">
+                                <a href="index.html" class="header__logo__link">
+                  <img src="image/logos/imageedit_2_3333498324 (1) (1).png" alt="bafenyi" class="header__logo__image">
+                </a>
+                            </div>
+                            <!-- logo end -->
+                            <!-- Main Menu Start -->
+                            <div class="header__menu header__menu--style2">
+                                <nav class="mainMenu">
+                                    <ul>
+                                        <li class="dropdown"><a href="index.html">Home</a>
+                                        </li>
+                                        <li><a href="about.html">What we do</a></li>
+                                        <li><a href="donation.html">How to be involved</a></li>
+                                        <li><a href="contact.html">Contacts</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <!-- Main Menu End -->
+                            <!-- Header Right Buttons Search Cart -->
+                            <div class="header__right header__right--style2">
+                                <div class="header__button">
+                                    <a class="btn btn--styleOne it-btn" href="Annual-Report-2020-2021.pdf" download="bankingdetails">
+                                    <span class="btn__text">Report</span>
+                                      <i class="fa-solid fa-heart btn__icon"></i>
+                                  <span class="it-btn__inner">
+                                    <span class="it-btn__blobs">
+                                        <span class="it-btn__blob"></span>
+                                   <span class="it-btn__blob"></span>
+                              <span class="it-btn__blob"></span>
+                              <span class="it-btn__blob"></span>
+                               </span>
+                    </span>
+                    <svg class="it-btn__animation" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                      <defs>
+                        <filter>
+                          <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10">
+                          </feGaussianBlur>
+                          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo">
+                          </feColorMatrix>
+                          <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                        </filter>
+                      </defs>
+                    </svg>
+                  </a>
+                                </div>
+                            </div>
+                            <!-- Header Right Buttons Search Cart -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end header -->
+        <!-- Mobile Menu Button Start -->
+        <div class="header header--mobile cc-header-menu mean-container position-relative" id="meanmenu">
+            <div class="mean-bar headerBurgerMenu">
+                <a href="index.html">
+          <img class="mean-bar__logo" alt="Techkit" src="image/logos/baf.png" />
+        </a>
+                <!-- Header Right Buttons Search Cart -->
+                <div class="header__right">
+                    <div class="header__actions">
+                        <ul>
+                           
+                           
+                            <li>
+                                <button class="headerBurgerMenu__button sidebarBtn" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+                  <svg width="50" height="50" viewBox="0 0 100 100">
+                    <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                    <path class="line line2" d="M 20,50 H 80" />
+                    <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                  </svg>
+                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Header Right Buttons Search Cart -->
+            </div>
+        </div>
+        <!-- Mobile Menu Button End -->
+        <!-- Mobile Menu Navbar -->
+        <div class="cc cc--slideNav">
+            <div class="cc__logo mb-40">
+                <a href="index.html">
+          <img class="mean-bar__logo" alt="Techkit" src="image/logos/baf.png" />
+        </a>
+            </div>
+            <div class="offscreen-navigation mb-40">
+                <nav class="menu-main-primary-container">
+                    <ul>
+                        <li class="dropdown"><a href="index.html">Home</a>
+                        </li>
+                        <li><a href="about.html">What we do</a></li>
+                        <li><a href="donation.html">How to be involved</a></li>
+                        <li><a href="contact.html">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="itSocial itSocial--sidebar mb-40">
+                <ul>
+                    <li>
+                        <a class="facebook" href="https://www.facebook.com/bafenyitrust/" rel="nofollow">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+                    </li>
+                  
+                    <li>
+                        <a class="instagram" href="https://instagram.com/bafenyitrust?utm_medium=copy_link" rel="nofollow">
+              <i class="fab fa-instagram"></i>
+            </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="cc__button">
+                <div class="header__button">
+                    <a class="btn btn--styleOne btn--secondary it-btn" href="Bafenyi Trust Annual Report 2021-2022 (1).pdf">
+            <span class="btn__text">Download report</span>
+            <i class="fa-solid fa-heart btn__icon"></i>
+            <span class="it-btn__inner">
+                    <span class="it-btn__blobs">
+                        <span class="it-btn__blob"></span>
+            <span class="it-btn__blob"></span>
+            <span class="it-btn__blob"></span>
+            <span class="it-btn__blob"></span>
+            </span>
+            </span>
+            <svg class="it-btn__animation" xmlns="http://www.w3.org/2000/svg" version="1.1">
+              <defs>
+                <filter id="goo">
+                  <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10">
+                  </feGaussianBlur>
+                  <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo">
+                  </feColorMatrix>
+                  <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                </filter>
+              </defs>
+            </svg>
+          </a>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu Navbar End -->
+        <!-- Header Style One End -->
+        <!-- Hero/Welcome Section Start -->
+        <section class="hero hero--style5" data-bg-image="image/update/gogo2.jpg">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-xl-6 col-lg-8 mb-30">
+                        <div class="hero__content">
+                            <span class="hero__title hero__title--small wow animate__fadeInUp animate__animated" data-wow-duration="1200ms" data-wow-delay="200ms"><i class="fa-solid fa-heart btn__icon"></i>Helping people win!
+              </span>
+                            <h1 class="hero__title hero__title--big text-white wow animate__fadeInUp animate__animated" data-wow-duration="1200ms" data-wow-delay="300ms">Bafenyi</h1>
+                            <p class="hero__text text-white wow animate__fadeInUp animate__animated" data-wow-duration="1200ms" data-wow-delay="400ms">is the setswana word for "winners" and we want to see people win, regardless of their circumstances</p>
+                            <a class="btn btn--styleOne btn--primary it-btn wow animate__fadeInUp animate__animated" data-wow-duration="1200ms" data-wow-delay="500ms" href="https://wa.link/f5xqkw">
+                <span class="btn__text">join the journey</span>
+                <i class="fa-solid fa-heart btn__icon"></i>
+                <span class="it-btn__inner">
+                <span class="it-btn__blobs">
+                  <span class="it-btn__blob"></span>
+                <span class="it-btn__blob"></span>
+                <span class="it-btn__blob"></span>
+                <span class="it-btn__blob"></span>
+                </span>
+                </span>
+                <svg class="it-btn__animation" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                  <defs>
+                    <filter>
+                      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo">
+                      </feColorMatrix>
+                      <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                    </filter>
+                  </defs>
+                </svg>
+              </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hero/Welcome Section End -->
+        <!-- About && Features && Donner Section -->
+        <br>
+        <br>
+        <br>
+        <!-- About && Features && Doner End -->
+        <!-- Testimonials -->
+        <div class="about position-relative">
+            <img src="image/map/map-about-tab.svg" alt="befenyi" class="map-about-tab">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="featureTab">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">who we are</button>
+                                </li>
+                               
+                            </ul>
+                            <div class="tab-content pt-55" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                    <div class="row">
+                                        <div class="col-lg-10 mx-auto">
+                                            <div class="aboutDetails text-center">
+                                                <p class="aboutDetailsText mb-20">Bafenyi means ‘winners’ in the Setswana language, and we are passionate about helping people win regardless of their circumstances. Our goal is to reach adults and children who live in poor areas of our community, that often feel lost, neglected and rejected by society. We aim to meet their need by providing physical and spiritual food. Currently we are reaching a 1000 people per week through our feeding scheme, which is our main vehicle towards combating poverty and hopelessness within the community.<br>
+                                                    Our core values towards poverty relief and helping people win is; being responsible, honest and accountable with all donations received, empowering other churches and organisations to make an impact in the community, loving others well and following Jesus Christ.<br>
+                                                    ‘Diatla’ means hands and we love to take hands with other organisations who want to make a difference in the lives of people. Some of the organisations that we have worked with are Feisty Females and Fire and Fragrance South Africa (discipleship training school).<br>
+                                                    
+                                                    We have built a community centre in Promosa where Bafenyi and networking partners can present trainings and workshops from.
+                                                    
+                                                </p>
+                                               
+                                            </div>
+                                            <div class="aboutDetailsThumbs pt-100">
+                                                <div class="row g-0 align-items-center">
+                                                    <div class="col-lg-4">
+                                                        <div class="aboutDetailsThumb">
+                                                            <img src="image/about/aboutDetailsthumb1.jpg" alt="About befenyi">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="aboutDetailsThumb aboutDetailsThumb--big">
+                                                            <img src="image/about/aboutDetailsthumb2.jpg" alt="About befenyi">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="aboutDetailsThumb">
+                                                            <img src="image/about/aboutDetailsthumb3.jpg" alt="About befenyi">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                         
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+
+    <section class="missionSection missionSection--style1 position-relative" data-bg-image="image/bg/missionBg.jpg">
+        <div class="sectionShape sectionShape--top">
+            <img src="image/shapes/pagebreadcumbShapeTop.svg" alt="befenyi">
+        </div>
+        <div class="sectionShape sectionShape--bottom">
+            <img src="image/shapes/pagebreadcumbShapeBottom.svg" alt="befenyi">
+        </div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="missionContent">
+                        <!-- Section Heading/Title -->
+                        <div class="sectionTitle mb-35">
+                            <span class="sectionTitle__small">
+            <i class="fa-solid fa-heart btn__icon"></i>
+            Our projects
+          </span>
+                            <h2 class="sectionTitle__big text-white">our projects- 2022</h2>
+                        </div>
+                        <!-- Section Heading/Title End -->
+                        <div class="row g-4">
+                            
+                            <div class="col-lg-6 col-md-6">
+                                <div class="missionBlock bgSecondary">
+                                    <div class="missionBlock__icon">
+                                        <img src="image/icons/services-icon1.svg" alt="befenyi Mission">
+                                    </div>
+                                    <div class="missionBlock__content">
+                                        <span class="missionBlock__counter">Poverty relief</span>
+                                        <p class="missionBlock__title">Helping the poor in communities</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="missionBlock bgPrimary">
+                                    <div class="missionBlock__icon">
+                                        <img src="image/icons/mission-icon2.svg" alt="befenyi Mission">
+                                    </div>
+                                    <div class="missionBlock__content">
+                                        <span class="missionBlock__counter">Community center</span>
+                                        <p class="missionBlock__title">Facility to help the community</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="missionBlock bgPrimary">
+                                    <div class="missionBlock__icon">
+                                        <img src="image/icons/mission-icon3.svg" alt="befenyi Mission">
+                                    </div>
+                                    <div class="missionBlock__content">
+                                        <span class="missionBlock__counter">Atisa</span>
+                                        <p class="missionBlock__title">Providing food and hope </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="missionBlock bgSecondary">
+                                    <div class="missionBlock__icon">
+                                        <img src="image/icons/services-icon3.svg" alt="befenyi Mission">
+                                    </div>
+                                    <div class="missionBlock__content">
+                                        <span class="missionBlock__counter">Dinaledi</span>
+                                        <p class="missionBlock__title">Early child development</p>
+                                    </div>
+                                </div>
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="missionVideo">
+                        <div class="mission-video-main">
+                            <div class="promo-video">
+                                <div class="waves-block">
+                                    <div class="waves wave-1"></div>
+                                    <div class="waves wave-2"></div>
+                                    <div class="waves wave-3"></div>
+                                </div>
+                            </div>
+                            <a href="https://www.youtube.com/watch?v=BqI0Q7e4kbk" class="video video-popup mfp-iframe" data-lity><i
+              class="fa fa-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <section class="review pt-110 pb-100 position-relative overflow-hidden cc-slide-wrap3">
+            <img src="image/shapes/testi-shape1.svg" alt="befenyi Shape" class="review__shape review__shape--one">
+            <img src="image/shapes/testi-shape2.svg" alt="befenyi Shape" class="review__shape review__shape--two">
+            <div class="mask mask--review position-absolute">
+                <img src="image/update/shape1.jpg" alt="befenyi Shape" class="mask__thumb">
+                <img class="mask__overlay" src="image/shapes/testi-shape4.svg" alt="befenyi Shape">
+            </div>
+           
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-8 mx-auto">
+                        <!-- Section Heading/Title -->
+                        <div class="sectionTitle text-center mb-65">
+                            <span class="sectionTitle__small justify-content-center">
+              <i class="fa-solid fa-heart btn__icon"></i>
+              stories
+            </span>
+                            <h2 class="sectionTitle__big">Bafenyi Stories</h2>
+                        </div>
+                        <!-- Section Heading/Title End -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="review__box mb-30">
+                            <div class="sliderNav sliderNav--style2">
+                                <span class="sliderNav__btn btn-prev" tabindex="0" role="button" aria-label="Previous slide">
+                <svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M5.75 9.40625L6.375 8.78125C6.5 8.625 6.5 8.40625 6.34375 8.25L3.84375 5.8125H14.625C14.8125 5.8125 15 5.65625 15 5.4375V4.5625C15 4.375 14.8125 4.1875 14.625 4.1875H3.84375L6.34375 1.78125C6.5 1.625 6.5 1.40625 6.375 1.25L5.75 0.625C5.59375 0.5 5.375 0.5 5.21875 0.625L1.09375 4.75C0.96875 4.90625 0.96875 5.125 1.09375 5.28125L5.21875 9.40625C5.375 9.53125 5.59375 9.53125 5.75 9.40625Z"
+                    fill="currentColor"></path>
+                </svg>
+              </span>
+                                <span class="sliderNav__btn btn-next" tabindex="0" role="button" aria-label="Next slide">
+                <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M9.21875 0.625L8.59375 1.25C8.46875 1.40625 8.46875 1.625 8.625 1.78125L11.125 4.1875H0.375C0.15625 4.1875 0 4.375 0 4.5625V5.4375C0 5.65625 0.15625 5.8125 0.375 5.8125H11.125L8.625 8.25C8.46875 8.40625 8.46875 8.625 8.59375 8.78125L9.21875 9.40625C9.375 9.53125 9.59375 9.53125 9.75 9.40625L13.875 5.28125C14 5.125 14 4.90625 13.875 4.75L9.75 0.625C9.59375 0.5 9.375 0.5 9.21875 0.625Z"
+                    fill="currentColor"></path>
+                </svg>
+              </span>
+                            </div>
+                            <ul class="review__box__images">
+                                <li><img src="image/auth/reviewAuth2.png" alt="befenyi Reviewer"></li>
+                                <li><img src="image/auth/reviewAuth3.png" alt="befenyi Reviewer"></li>
+                                <li><img src="image/auth/reviewAuth4.png" alt="befenyi Reviewer"></li>
+                                <li><img src="image/auth/reviewAuth5.png" alt="befenyi Reviewer"></li>
+                            </ul>
+                            <div class="reviewblock text-center">
+                                <span class="reviewblock__quoteIcon__two">
+                <svg width="300" height="263" viewBox="0 0 300 263" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M271.875 131.5H225V94C225 73.4922 241.406 56.5 262.5 56.5H267.188C274.805 56.5 281.25 50.6406 281.25 42.4375V14.3125C281.25 6.69531 274.805 0.25 267.188 0.25H262.5C210.352 0.25 168.75 42.4375 168.75 94V234.625C168.75 250.445 181.055 262.75 196.875 262.75H271.875C287.109 262.75 300 250.445 300 234.625V159.625C300 144.391 287.109 131.5 271.875 131.5ZM103.125 131.5H56.25V94C56.25 73.4922 72.6562 56.5 93.75 56.5H98.4375C106.055 56.5 112.5 50.6406 112.5 42.4375V14.3125C112.5 6.69531 106.055 0.25 98.4375 0.25H93.75C41.6016 0.25 0 42.4375 0 94V234.625C0 250.445 12.3047 262.75 28.125 262.75H103.125C118.359 262.75 131.25 250.445 131.25 234.625V159.625C131.25 144.391 118.359 131.5 103.125 131.5Z"
+                    fill="#F8F7F7" />
+                </svg>
+              </span>
+                                <div class="testi-slider-active1 swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="reviewblock__content">
+                                                <img class="reviewblock__author__image" src="image/auth/reviewAuth1.png" alt="befenyi Reviewer">
+                                                <span class="reviewblock__quoteIcon__one">
+                        <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M21.75 10.9951H18V7.99512C18 6.35449 19.3125 4.99512 21 4.99512H21.375C21.9844 4.99512 22.5 4.52637 22.5 3.87012V1.62012C22.5 1.01074 21.9844 0.495117 21.375 0.495117H21C16.8281 0.495117 13.5 3.87012 13.5 7.99512V19.2451C13.5 20.5107 14.4844 21.4951 15.75 21.4951H21.75C22.9688 21.4951 24 20.5107 24 19.2451V13.2451C24 12.0264 22.9688 10.9951 21.75 10.9951ZM8.25 10.9951H4.5V7.99512C4.5 6.35449 5.8125 4.99512 7.5 4.99512H7.875C8.48438 4.99512 9 4.52637 9 3.87012V1.62012C9 1.01074 8.48438 0.495117 7.875 0.495117H7.5C3.32812 0.495117 0 3.87012 0 7.99512V19.2451C0 20.5107 0.984375 21.4951 2.25 21.4951H8.25C9.46875 21.4951 10.5 20.5107 10.5 19.2451V13.2451C10.5 12.0264 9.46875 10.9951 8.25 10.9951Z"
+                            fill="#EB9309" />
+                        </svg>
+                      </span>
+                                                <h4 class="reviewblock__qotes">“ Community is a sign that love is possible in a materialistic world where people so often either ignore or fight each other. It is a sign that we don’t need a lot of money  to be happy—in fact, the opposite. “</h4>
+                                                <span class="reviewblock__author__name">Jean Vanier</span>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="swiper-slide">
+                                            <div class="reviewblock__content">
+                                                <img class="reviewblock__author__image" src="image/auth/reviewAuth1.png" alt="befenyi Reviewer">
+                                                <span class="reviewblock__quoteIcon__one">
+                        <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M21.75 10.9951H18V7.99512C18 6.35449 19.3125 4.99512 21 4.99512H21.375C21.9844 4.99512 22.5 4.52637 22.5 3.87012V1.62012C22.5 1.01074 21.9844 0.495117 21.375 0.495117H21C16.8281 0.495117 13.5 3.87012 13.5 7.99512V19.2451C13.5 20.5107 14.4844 21.4951 15.75 21.4951H21.75C22.9688 21.4951 24 20.5107 24 19.2451V13.2451C24 12.0264 22.9688 10.9951 21.75 10.9951ZM8.25 10.9951H4.5V7.99512C4.5 6.35449 5.8125 4.99512 7.5 4.99512H7.875C8.48438 4.99512 9 4.52637 9 3.87012V1.62012C9 1.01074 8.48438 0.495117 7.875 0.495117H7.5C3.32812 0.495117 0 3.87012 0 7.99512V19.2451C0 20.5107 0.984375 21.4951 2.25 21.4951H8.25C9.46875 21.4951 10.5 20.5107 10.5 19.2451V13.2451C10.5 12.0264 9.46875 10.9951 8.25 10.9951Z"
+                            fill="#EB9309" />
+                        </svg>
+                      </span>
+                                                <h4 class="reviewblock__qotes">“ I was blessed to come alongside the team at Bafenyi Trust during my Discipleship Training Outreach. Part of our ministry was partnering with the local communities that they support and this had a life changing impact on me. Each week we came alongside the communities in Promosa and Ikageng – loving on them and sharing the gospel of Jesus. During that time we saw change and transformation, miracle healings, God’s provision and I will be forever thankful for the hand-print left in my heart by these beautiful people! I am so thankful that my family has grown and a part of my heart will forever belong with you guys, my South Africa family “</h4>
+                                                <span class="reviewblock__author__name">Natalie Ketcher</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <div class="reviewblock__content">
+                                                <img class="reviewblock__author__image" src="image/auth/reviewAuth1.png" alt="befenyi Reviewer">
+                                                <span class="reviewblock__quoteIcon__one">
+                        <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M21.75 10.9951H18V7.99512C18 6.35449 19.3125 4.99512 21 4.99512H21.375C21.9844 4.99512 22.5 4.52637 22.5 3.87012V1.62012C22.5 1.01074 21.9844 0.495117 21.375 0.495117H21C16.8281 0.495117 13.5 3.87012 13.5 7.99512V19.2451C13.5 20.5107 14.4844 21.4951 15.75 21.4951H21.75C22.9688 21.4951 24 20.5107 24 19.2451V13.2451C24 12.0264 22.9688 10.9951 21.75 10.9951ZM8.25 10.9951H4.5V7.99512C4.5 6.35449 5.8125 4.99512 7.5 4.99512H7.875C8.48438 4.99512 9 4.52637 9 3.87012V1.62012C9 1.01074 8.48438 0.495117 7.875 0.495117H7.5C3.32812 0.495117 0 3.87012 0 7.99512V19.2451C0 20.5107 0.984375 21.4951 2.25 21.4951H8.25C9.46875 21.4951 10.5 20.5107 10.5 19.2451V13.2451C10.5 12.0264 9.46875 10.9951 8.25 10.9951Z"
+                            fill="#EB9309" />
+                        </svg>
+                      </span>
+                                                <h4 class="reviewblock__qotes">“ Part of this family is our sponsors – people from the community, who are willing to open their hearts and hands to contribute to the need at the pre-schools, whether this is blankets, food, learning material, money for training purposes etc. Together we can win and our country will prosper because our children are stimulated and happy. I am proud to be on “the other side” of the family now, being a sponsor. Never will I able to leave my Bafenyi family! “</h4>
+                                                <span class="reviewblock__author__name">Retha Serfontein</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <div class="reviewblock__content">
+                                                <img class="reviewblock__author__image" src="image/auth/reviewAuth1.png" alt="befenyi Reviewer">
+                                                <span class="reviewblock__quoteIcon__one">
+                        <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M21.75 10.9951H18V7.99512C18 6.35449 19.3125 4.99512 21 4.99512H21.375C21.9844 4.99512 22.5 4.52637 22.5 3.87012V1.62012C22.5 1.01074 21.9844 0.495117 21.375 0.495117H21C16.8281 0.495117 13.5 3.87012 13.5 7.99512V19.2451C13.5 20.5107 14.4844 21.4951 15.75 21.4951H21.75C22.9688 21.4951 24 20.5107 24 19.2451V13.2451C24 12.0264 22.9688 10.9951 21.75 10.9951ZM8.25 10.9951H4.5V7.99512C4.5 6.35449 5.8125 4.99512 7.5 4.99512H7.875C8.48438 4.99512 9 4.52637 9 3.87012V1.62012C9 1.01074 8.48438 0.495117 7.875 0.495117H7.5C3.32812 0.495117 0 3.87012 0 7.99512V19.2451C0 20.5107 0.984375 21.4951 2.25 21.4951H8.25C9.46875 21.4951 10.5 20.5107 10.5 19.2451V13.2451C10.5 12.0264 9.46875 10.9951 8.25 10.9951Z"
+                            fill="#EB9309" />
+                        </svg>
+                      </span>
+                                                <h4 class="reviewblock__qotes">“ I was fortunate enough to work at Bafenyi for about a year and a half. It was like most part of life; not always nice or easy, but good! It was more than just good it was such a rich and life changing experience. What I loved most about Bafenyi was the connections and relationships that were formed – across a multitude of borders. There was a constant sharing of stories and doing life, whether it was in the office, multiple trips to the department of social services, waiting in line at SARS or at the hospital. It was more than just a regular job. It was working together for change in a community. “</h4>
+                                                <span class="reviewblock__author__name">Maxine Theunissen</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+   
+        </section>
+        <!-- Testimonials End -->
+
+        <section class="portfolio">
+            <div class="container-fluid p-0 overflow-hidden">
+                <div class="row g-0">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="portfolioBlock position-relative portfolioBlock--active">
+                            <figure class="portfolioBlock__figure">
+                                <img class="portfolioBlock__figure__thumb" src="image/portfolio/kidx.jpg" alt="befenyi Portfolio">
+                                <div class="portfolioBlock__figure__shape">
+                                    <img src="image/shapes/portfolio-shape.png" alt="befenyi">
+                                </div>
+                            </figure>
+                           
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="portfolioBlock position-relative">
+                            <figure class="portfolioBlock__figure">
+                                <img class="portfolioBlock__figure__thumb" src="image/portfolio/chingx.jpg" alt="befenyi Portfolio">
+                                <div class="portfolioBlock__figure__shape">
+                                    <img src="image/shapes/portfolio-shape.png" alt="befenyi">
+                                </div>
+                            </figure>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="portfolioBlock position-relative">
+                            <figure class="portfolioBlock__figure">
+                                <img class="portfolioBlock__figure__thumb" src="image/portfolio/portfolio-thumb1.jpg" alt="befenyi Portfolio">
+                                <div class="portfolioBlock__figure__shape">
+                                    <img src="image/shapes/portfolio-shape.png" alt="befenyi">
+                                </div>
+                            </figure>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio -->
+       
+        <!-- Portfolio End -->
+        <!-- Blog -->
+    
+        <!-- Blog End -->
+        <br>
+        <!-- Sponsors -->
+        <section class="sponsors pb-60">
+            <div class="container">
+                <div class="row">
+              
+                    <div class="col-12">
+                        <div class="sponsorsTitle">
+                            <span class="sponsorsTitle__line"></span>
+                            <h2 class="sponsorsTitle__heading text-uppercase">“ Become Support Sponsor ”</h2>
+                            <span class="sponsorsTitle__line"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sponsors--style2">
+                    <div class="sponsor-slider-active swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="sponsorsItem mb-40">
+                                    <img src="image/sponsors/vaxjo (1).jpg" alt="befenyi Sponsors">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="sponsorsItem mb-40">
+                                    <img src="image/sponsors/NWU-Logo.jpg" alt="befenyi Sponsors">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="sponsorsItem mb-40">
+                                    <img src="image/sponsors/za-398-nw-gimmies-600x161 (1) (1).png" alt="befenyi Sponsors">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="sponsorsItem mb-40">
+                                    <img src="image/sponsors/logo-397687-5a4c3dfe-3ebd-4d0c-ad6f-08810182a8c3 (2).jpg" alt="befenyi Sponsors">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="sponsorsItem mb-40">
+                                    <img src="image/sponsors/bluuu (1).png" alt="befenyi Sponsors">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sponsors End -->
+    </main>
+    <!-- Main End -->
+    <!-- footer -->
+    <footer class="footer-section">
+       
+        <div class="footer-copyright">
+            Copyright © 2022 Bafenyi Trust All Rights Reserved. Developed by <a href="https://wa.me/27610279330">dot dev tech</a>
+        </div>
+        
+    </footer>
+    <!-- CURSOR -->
+    <div class="mouseCursor cursor-outer"></div>
+    <div class="mouseCursor cursor-inner"></div>
+    <!-- /CURSOR -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+    </div>
+    <!-- Template Search -->
+    <div id="template-search" class="template-search">
+        <button type="button" class="close">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+        <form class="search-form">
+            <input type="search" value="" placeholder="Type your search" />
+            <button type="submit" class="search-btn">
+        <i class="fas fa-search"></i>
+      </button>
+        </form>
+    </div>
+    <!-- Template Search End -->
+    <script src="assets/jquery/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="assets/swiper/swiper.min.js"></script>
+    <script src="assets/nice-select/jquery.nice-select.min.js"></script>
+    <script src="assets/validator.min.js"></script>
+    <script src="assets/animation/wow.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
