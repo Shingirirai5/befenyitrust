@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>About</title>
+    <link rel="icon" href="image/cropped-Header-logo-1-32x32 (1).png" type="image/png">
+    <link rel="stylesheet" href="assets/animation/animate.min.css">
+    <link rel="stylesheet" href="assets/animation/custom-animation.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/swiper/swiper.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/nice-select/nice-select.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "1448809042061720");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v13.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="ctn-preloader" id="ctn-preloader">
+            <div class="round_spinner">
+                <div class="spinner"></div>
+                <div class="text">
+                    <img src="image/logos/baf.png" alt="Gainioz">
+                </div>
+            </div>
+            <h2 class="head">BAFENYI</h2>
+            <p></p>
+        </div>
+    </div>
+    <!-- Preloader End -->
+    <!-- Main -->
+    <main class="main">
+        <!-- Header Style One -->
+        <!-- header -->
+        <header class="header header--styleFour sticky-on">
+            <div>
+                <div class="container container--custom">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="header__wrapper">
+                                <!-- logo start -->
+                                <div class="header__logo">
+                                    <a href="index.html" class="header__logo__link">
+                    <img src="image/logos/baf.png" alt="befenyi" class="header__logo__image">
+                  </a>
+                                </div>
+                                <!-- logo end -->
+                                <!-- Main Menu Start -->
+                                <div class="header__menu">
+                                    <nav class="mainMenu">
+                                        <nav class="mainMenu">
+                                            <ul>
+                                                <li class="dropdown"><a href="index.html">Home</a>
+                                                </li>
+                                                <li><a href="about.html">What we do</a></li>
+                                                <li><a href="donation.html">How to be involved</a></li>
+                                                <li><a href="contact.html">Contacts</a></li>
+                                            </ul>
+                                        </nav>
+                                    </nav>
+                                </div>
+                                <!-- Main Menu End -->
+                                <!-- Header Right Buttons Search Cart -->
+                                <div class="header__right">
+                                  
+                                    <div class="header__button">
+                                        <a class="btn btn--styleOne btn--secondary it-btn" href="donation.html">
+                      <span class="btn__text">donate now</span>
+                      <i class="fa-solid fa-heart btn__icon"></i>
+                      <span class="it-btn__inner">
+                                        <span class="it-btn__blobs">
+                                            <span class="it-btn__blob"></span>
+                      <span class="it-btn__blob"></span>
+                      <span class="it-btn__blob"></span>
+                      <span class="it-btn__blob"></span>
+                      </span>
+                      </span>
+                      <svg class="it-btn__animation" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                        <defs>
+                          <filter>
+                            <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10">
+                            </feGaussianBlur>
+                            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo">
+                            </feColorMatrix>
+                            <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                          </filter>
+                        </defs>
+                      </svg>
+                    </a>
+                                    </div>
+                                </div>
+                                <!-- Header Right Buttons Search Cart -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end header -->
+        <!-- Mobile Menu Button Start -->
+        <div class="header header--mobile cc-header-menu mean-container position-relative" id="meanmenu">
+            <div class="mean-bar headerBurgerMenu">
+                <a href="index.html">
+          <img class="mean-bar__logo" alt="Techkit" src="image/logos/baf.png" />
+        </a>
+                <!-- Header Right Buttons Search Cart -->
+                <div class="header__right">
+                    <div class="header__actions">
+                        <ul>
+                           
+                          
+                            <li>
+                                <button class="headerBurgerMenu__button sidebarBtn" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+                  <svg width="50" height="50" viewBox="0 0 100 100">
+                    <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                    <path class="line line2" d="M 20,50 H 80" />
+                    <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                  </svg>
+                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Header Right Buttons Search Cart -->
+            </div>
+        </div>
+        <!-- Mobile Menu Button End -->
+        <!-- Mobile Menu Navbar -->
+        <div class="cc cc--slideNav">
+            <div class="cc__logo mb-40">
+                <a href="index.html">
+          <img class="mean-bar__logo" alt="Techkit" src="image/logos/baf.png" />
+        </a>
+            </div>
+            <div class="offscreen-navigation mb-40">
+                <nav class="menu-main-primary-container">
+                    <ul>
+                        <li class="dropdown"><a href="index.html">Home</a>
+                        </li>
+                        <li><a href="about.html">What we do</a></li>
+                        <li><a href="donation.html">How to be involved</a></li>
+                        <li><a href="contact.html">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="itSocial itSocial--sidebar mb-40">
+                <ul>
+                    <li>
+                        <a class="facebook" href="https://www.facebook.com/bafenyitrust/" rel="nofollow">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+                    </li>
+                    <li>
+                        <a class="instagram" href="https://instagram.com/bafenyitrust?utm_medium=copy_link" rel="nofollow">
+              <i class="fab fa-instagram"></i>
+            </a>
+                    </li>
+                </ul>
+            </div>
+
+         
+        </div>
+        <!-- Mobile Menu Navbar End -->
+        <!-- Header Style One End -->
+        <!-- Page Breadcumb -->
+        <section class="pageBreadcumb pageBreadcumb--style1 position-relative" data-bg-image="image/bg/breaaaaaddd.jpeg">
+            <div class="pageBreadcumbTopDown">
+                <a class="btn btn--styleOne btn--icon btn--icon2 it-btn" href="#">
+          <svg class="btn__icon" width="10" height="14" viewBox="0 0 10 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.869141 8.70508L1.45508 8.11914C1.60156 8.00195 1.80664 8.00195 1.95312 8.14844L4.23828 10.4922V0.414062C4.23828 0.208984 4.38477 0.0625 4.58984 0.0625H5.41016C5.58594 0.0625 5.76172 0.208984 5.76172 0.414062V10.4922L8.01758 8.14844C8.16406 8.00195 8.36914 8.00195 8.51562 8.11914L9.10156 8.70508C9.21875 8.85156 9.21875 9.05664 9.10156 9.20312L5.23438 13.0703C5.08789 13.1875 4.88281 13.1875 4.73633 13.0703L0.869141 9.20312C0.751953 9.05664 0.751953 8.85156 0.869141 8.70508Z" fill="#60646B" />
+          </svg>
+          <span class="it-btn__inner">
+          <span class="it-btn__blobs">
+            <span class="it-btn__blob"></span>
+          <span class="it-btn__blob"></span>
+          <span class="it-btn__blob"></span>
+          <span class="it-btn__blob"></span>
+          </span>
+          </span>
+          <svg class="it-btn__animation" xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <defs>
+              <filter>
+                <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo">
+                </feColorMatrix>
+                <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+              </filter>
+            </defs>
+          </svg>
+        </a>
+            </div>
+            <div class="sectionShape sectionShape--top">
+                <img src="image/shapes/pagebreadcumbShapeTop.svg" alt="Gainioz">
+            </div>
+            <div class="sectionShape sectionShape--bottom">
+                <img src="image/shapes/pagebreadcumbShapeBottom.svg" alt="Gainioz">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="pageTitle text-center">
+                            <h2 class="pageTitle__heading text-white text-uppercase mb-25">What we do</h2>
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">What we do</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Page Breadcumb End -->
+        <!-- Donation Details -->
+        <section class="donation pt-130 pb-100">
+          
+            <div class="row">
+              
+                <div class="col-12">
+                    <div class="sponsorsTitle">
+                        <span class="sponsorsTitle__line"></span>
+                        <h2 class="sponsorsTitle__heading text-uppercase">What we do</h2>
+                        <span class="sponsorsTitle__line"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="aboutDetails text-center">
+                        <h6 class="reviewblock__qotes">Coming soon</h6>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+     
+
+        <!-- Donation Details End -->
+    </main>
+    <!-- Main End -->
+    <!-- footer -->
+    <footer class="footer footer--bg footer--styleOne pt-70 pb-40">
+        <img src="image/shapes/footerShape2.png" alt="befenyi Shape" class="footer__shape">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <div class="footer__logo">
+                        <img src="image/logos/imageedit_2_3333498324 (1) (1).png" alt="befenyi Logo" class="footer__logo__image">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="footer__social itSocial">
+                        <ul>
+                            <li>
+                                <a class="facebook" href="https://www.facebook.com/bafenyitrust/" rel="nofollow">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                            </li>
+                            <li>
+                                <a class="twitter" href="tel:27780607398">
+                  <i class="fa fa-phone"></i>
+                </a>
+                            </li>
+                            <li>
+                                <a class="instagram" href="https://instagram.com/bafenyitrust?utm_medium=copy_link" >
+                  <i class="fab fa-instagram"></i>
+                </a>
+                            </li>
+                            <li>
+                                <a class="linkedin" href="https://wa.link/f5xqkw" rel="nofollow">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+                            </li>
+                            <li>
+                                <a class="pinterest" href="https://www.google.com/maps?q=16754+Kopanong+Street,+Ikageng,+Potchefstroom,+South+Africa" rel="nofollow">
+                  <i class="fa fa-map-marker"></i>
+                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+           
+            </div>
+            
+        </div>
+    </footer>
+    <div class="footer-copyright">
+        Copyright © 2022 Bafenyi Trust All Rights Reserved. Developed by <a href="https://wa.me/27610279330">dot dev tech</a>
+    </div>
+    <!-- CURSOR -->
+    <div class="mouseCursor cursor-outer"></div>
+    <div class="mouseCursor cursor-inner"></div>
+    <!-- /CURSOR -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+    </div>
+    <!-- Template Search -->
+   
+    <!-- Template Search End -->
+    <script src="assets/jquery/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="assets/swiper/swiper.min.js"></script>
+    <script src="assets/nice-select/jquery.nice-select.min.js"></script>
+    <script src="assets/validator.min.js"></script>
+    <script src="assets/animation/wow.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
